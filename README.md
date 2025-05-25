@@ -22,9 +22,9 @@ docker build -t api_docker .
 docker run -p 8080:8080 api_docker
 ```
 ### 4. Acesse no navegador:
-```
+
 http://localhost:8080
-```
+
 ## 🔍 Swagger (Documentação da API)
 Se estiver configurado com SpringFox ou Springdoc, acesse:
 ```bash
