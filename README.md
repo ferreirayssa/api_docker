@@ -14,11 +14,13 @@ cd api_docker
 ```
 
 ### 2. Build da imagem Docker
+```bash
 docker build -t api_docker .
-
+```
 ### 3. Execute o container
+```bash
 docker run -p 8080:8080 api_docker
-
+```
 ### 4. Acesse no navegador:
 http://localhost:8080
 
