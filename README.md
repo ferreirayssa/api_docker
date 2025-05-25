@@ -4,9 +4,17 @@ Esta é uma API REST desenvolvida com Spring Boot e empacotada em uma imagem Doc
 
 ---
 
+> **⚠️ Pré-requisito Importante:** Antes de prosseguir, certifique-se de que o **Docker** esteja instalado e devidamente configurado em seu ambiente. A execução desta aplicação depende diretamente do Docker.
+
+---
+
 ## 🚀 Como executar com Docker
 
+Siga os passos abaixo para executar a aplicação utilizando Docker:
+
 ### 1. Clone o repositório
+
+Navegue até o diretório onde deseja clonar o projeto e execute o comando:
 
 ```bash
 git clone https://github.com/ferreirayssa/api_docker.git
@@ -14,35 +22,57 @@ cd api_docker
 ```
 
 ### 2. Build da imagem Docker
+
+Dentro do diretório do projeto (`api_docker`), construa a imagem Docker:
+
 ```bash
 docker build -t api_docker .
 ```
+
 ### 3. Execute o container
+
+Após o build da imagem ser concluído com sucesso, execute o container:
+
 ```bash
 docker run -p 8080:8080 api_docker
 ```
+
+A API estará acessível em `http://localhost:8080`.
+
+---
+
 ## 🔍 Swagger (Documentação da API)
-Se estiver configurado com SpringFox ou Springdoc, acesse:
 
-http://localhost:8080/swagger-ui.html
+Se a documentação da API via Swagger estiver habilitada (utilizando SpringFox ou Springdoc), você pode acessá-la através do seguinte endereço no seu navegador:
 
-## 🧱 Estrutura do projeto
-Dockerfile – Instruções para build da imagem
+[http://localhost:8080/swagger-ui.html](http://localhost:8080/swagger-ui.html)
 
-.dockerignore – Arquivos ignorados no build
+---
 
-pom.xml – Dependências do projeto
+## 🧱 Estrutura do Projeto
 
-src/ – Código-fonte da API
+A estrutura principal do projeto é organizada da seguinte forma:
 
-🛠️ Tecnologias
-Java 17
+-   `Dockerfile`: Contém as instruções para a construção da imagem Docker da aplicação.
+-   `Docker Compose`: Roda a aplicação automaticamente ao ser iniciado.
+-   `pom.xml`: Arquivo de configuração do Maven, listando as dependências e plugins do projeto.
+-   `src/`: Diretório contendo todo o código-fonte da API REST.
 
-Spring Boot
+---
 
-Maven
+## 🛠️ Tecnologias Utilizadas
 
-Docker
+Este projeto foi desenvolvido utilizando as seguintes tecnologias:
 
-👤 Autor
-Ferreirayssa
+-   Java 17
+-   Spring Boot
+-   Maven
+-   Docker
+
+---
+
+## 👤 Autor
+
+-   **[@ferreirayssa](https://github.com/ferreirayssa)**
+
+---
