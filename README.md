@@ -17,10 +17,6 @@ cd api_docker
 ```bash
 docker build -t api_docker .
 ```
-### 3. Execute o container
-```bash
-docker run -p 8080:8080 api_docker
-```
 ## 🔍 Swagger (Documentação da API)
 Se estiver configurado com SpringFox ou Springdoc, acesse:
 
