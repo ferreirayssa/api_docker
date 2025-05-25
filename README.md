@@ -22,15 +22,14 @@ docker build -t api_docker .
 docker run -p 8080:8080 api_docker
 ```
 ### 4. Acesse no navegador:
+```bash
 http://localhost:8080
-
+```
 ## 🔍 Swagger (Documentação da API)
 Se estiver configurado com SpringFox ou Springdoc, acesse:
-
-/swagger-ui.html
-
-ou /swagger-ui/index.html
-
+```bash
+http://localhost:8080/swagger-ui.html
+```
 ## 🧱 Estrutura do projeto
 Dockerfile – Instruções para build da imagem
 
