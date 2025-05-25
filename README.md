@@ -27,9 +27,9 @@ http://localhost:8080
 
 ## 🔍 Swagger (Documentação da API)
 Se estiver configurado com SpringFox ou Springdoc, acesse:
-```bash
+
 http://localhost:8080/swagger-ui.html
-```
+
 ## 🧱 Estrutura do projeto
 Dockerfile – Instruções para build da imagem
 
