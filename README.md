@@ -9,15 +9,15 @@ Esta é uma API REST desenvolvida com Spring Boot e empacotada em uma imagem Doc
 ### 1. Clone o repositório
 
 ```bash
-git clone https://github.com/SEU-USUARIO/minha-api-spring.git
-cd minha-api-spring
+git clone https://github.com/ferreirayssa/api_docker.git
+cd api_docker
 ```
 
 ### 2. Build da imagem Docker
-docker build -t minha-api-spring .
+docker build -t api_docker .
 
 ### 3. Execute o container
-docker run -p 8080:8080 minha-api-spring
+docker run -p 8080:8080 api_docker
 
 ### 4. Acesse no navegador:
 http://localhost:8080
