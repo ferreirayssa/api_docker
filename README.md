@@ -17,7 +17,7 @@ Siga os passos abaixo para executar a aplicação utilizando Docker:
 Navegue até o diretório onde deseja clonar o projeto e execute o comando:
 
 ```bash
-git clone https://github.com/ferreirayssa/api_docker.git
+git clone https://github.com/ferreirayssa/api_docker
 cd api_docker
 ```
 
