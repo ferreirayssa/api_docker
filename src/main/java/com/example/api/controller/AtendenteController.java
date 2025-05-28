@@ -21,7 +21,7 @@ import com.example.api.model.MetodoPut;
 @RestController
 @RequestMapping("/api/Atendentes")
 public class AtendenteController {
-    private List<Atendente> Atendentes = new ArrayList<>();
+    private final List<Atendente> Atendentes = new ArrayList<>();
 
     public AtendenteController() {
         Atendentes.add(new Atendente(1L, "João Gonçalves Silva", "Recursos Humanos"));
