@@ -43,7 +43,7 @@ A API estará acessível em `http://localhost:8080`.
 
 ## 🔍 Swagger (Documentação da API)
 
-Se a documentação da API via Swagger estiver habilitada (utilizando SpringFox ou Springdoc), você pode acessá-la através do seguinte endereço no seu navegador:
+A documentação da API via Swagger está habilitada (utilizando Springdoc), você pode acessá-la através do seguinte endereço no seu navegador:
 
 [http://localhost:8080/swagger-ui.html](http://localhost:8080/swagger-ui.html)
 
