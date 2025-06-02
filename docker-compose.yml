@@ -1,7 +1,0 @@
-version: '3.8'
-services:
-  api:
-    image: api_docker:latest
-    container_name: api_docker
-    ports:
-      - "8080:8080"
