@@ -1,3 +1,4 @@
+
 # 📦 API REST com Spring Boot + Docker
 
 Esta é uma API REST desenvolvida com Spring Boot e empacotada em uma imagem Docker para facilitar o deploy em qualquer ambiente.
@@ -68,6 +69,21 @@ Este projeto foi desenvolvido utilizando as seguintes tecnologias:
 -   Spring Boot
 -   Maven
 -   Docker
+
+---
+
+## 📋 Informações importantes antes de simular as requisições em plataformas externas
+
+### Métodos que precisam de header
+Geralmente, os métodos HTTP que enviam dados no corpo precisam desse header, especialmente quando o conteúdo é JSON:
+
+| Key           | Value            |
+| ------------- | ---------------- |
+| Content-Type  | application/json |
+
+- **POST** — usado para criar recursos, envia JSON no corpo.
+- **PUT** — usado para atualizar um recurso inteiro, envia JSON no corpo.
+- **PATCH** — usado para atualizar parcialmente um recurso, envia JSON no corpo.
 
 ---
 
