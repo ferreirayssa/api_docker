@@ -52,8 +52,9 @@ A documentação da API via Swagger está habilitada (utilizando Springdoc), voc
 
 ## 📋 Simular as requisições na plataforma Postman
 
-### Acesse a Collection pública para começar a simular
-[https://www.postman.com/descent-module-operator-65804179/docker/collection/vc2slnk/aplicao-api-docker](https://www.postman.com/descent-module-operator-65804179/docker/collection/vc2slnk/aplicao-api-docker)
+-   `Instale o Postman`: Instale o Postman Desktop na sua máquina.
+-   `Criar Conta`: Crie uma conta, ou se já houver, entre com sua conta.
+-   `Acesse a Collection pública para começar a simular`: [https://www.postman.com/descent-module-operator-65804179/docker/collection/vc2slnk/aplicao-api-docker](https://www.postman.com/descent-module-operator-65804179/docker/collection/vc2slnk/aplicao-api-docker)
 
 ---
 
