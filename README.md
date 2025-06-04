@@ -50,18 +50,10 @@ A documentação da API via Swagger está habilitada (utilizando Springdoc), voc
 
 ---
 
-## 📋 Informações importantes antes de simular as requisições em plataformas externas
+## 📋 Simular as requisições na plataforma Postman
 
-### Métodos que precisam de header
-Geralmente, os métodos HTTP que enviam dados no corpo precisam desse header, especialmente quando o conteúdo é JSON:
-
-| Key           | Value            |
-| ------------- | ---------------- |
-| Content-Type  | application/json |
-
-- **POST** — usado para criar recursos, envia JSON no corpo.
-- **PUT** — usado para atualizar um recurso inteiro, envia JSON no corpo.
-- **PATCH** — usado para atualizar parcialmente um recurso, envia JSON no corpo.
+### Acesse a Collection pública para começar a simular
+[https://www.postman.com/descent-module-operator-65804179/docker/collection/vc2slnk/aplicao-api-docker](https://www.postman.com/descent-module-operator-65804179/docker/collection/vc2slnk/aplicao-api-docker)
 
 ---
 
